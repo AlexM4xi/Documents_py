@@ -19,17 +19,7 @@ for i in range(8):
 	despues de reemplazarlo.
 
 '''
-n_list = []
-for num in n:
-	n_list.append(num)
 
-for num in n_list: # recorremos la lista
-	if num.index() == 3: # selecciona el indice
-		if int(num) == 4: # si el num es 4
-			# reemplazamos el num
-			n_list[num.index()] = '5'
-			n_list = n_list
-		break
 
 
 
